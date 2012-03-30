@@ -10,7 +10,27 @@
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
 		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.0.xsd">
 
-<!-- Put your bean configuration here -->
+<bean id="spring" class="studentmanagmentsystem.StudentManagementSystem"
+        />
+        <bean id="stdnt1" class="studentmanagmentsystem.Student"
+        p:firstName="chathura" p:lastName="gamage" p:address="badulla" p:regNumber="100143"
+        />
+         <bean id="stdnt2" class="studentmanagmentsystem.Student"
+        p:firstName="supun" p:lastName="gothama" p:address="galle" p:regNumber="100196"
+        />
+         <bean id="stdnt3" class="studentmanagmentsystem.Student"
+        p:firstName="shamika" p:lastName="nethmi" p:address="panadura" p:regNumber="100159"
+        />
+         <bean id="stdnt4" class="studentmanagmentsystem.Student"
+        p:firstName="mihiri" p:lastName="prageetha" p:address="ambalangoda" p:regNumber="4"
+        />
+        <bean id="stdnt5" class="studentmanagmentsystem.Student"
+        p:firstName="anushka" p:lastName="mahesh" p:address="galle" p:regNumber="100087"
+        />
+
+
+
+
 </beans>
 
 <root>
